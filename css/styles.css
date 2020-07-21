@@ -58,7 +58,7 @@ h6 {
 .top-container {
   background-color: #66BFBF;
   position: relative;
-  padding-top: 30px;
+  padding-top: 55px;
 }
 
 .profile {
@@ -82,7 +82,7 @@ h6 {
   margin-top: -70px;
   height: 70px;
   background-color: #66BFBF;
-  margin-bottom: 0px;
+  padding-bottom: 30px;
   padding-top: 20px;
 }
 
@@ -95,7 +95,8 @@ h6 {
 .footer-link {
   color: #11999E;
   text-decoration: none;
-  margin-right: 15px;
+  margin-right: 7.5px;
+  margin-left: 7.5px;
   font-weight: bolder;
 }
 
