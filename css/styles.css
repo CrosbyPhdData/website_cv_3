@@ -1,0 +1,184 @@
+/**body {
+  background-color: white;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}**/
+body {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', serif;
+  /*merriweather is embedded into teh website from google fonts - check HTML*/
+}
+
+h1 {
+  font-size: 4rem;
+  /*100% = 16px */
+  color: #696969;
+  margin: 30px auto 0 auto;
+  font-family: 'Montserrat', cursive;
+  font-weight: bolder;
+  /*width: 10%;
+  margin: auto;*/
+}
+
+h2 {
+  color: #696969;
+  margin-top: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+h3 {
+  color: #328DB5;
+  margin-top: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  color: #696969;
+  margin-top: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+  color: #696969;
+  margin-top: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h6 {
+  color: #696969;
+  margin-top: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+  background-color: #66BFBF;
+  position: relative;
+  padding-top: 30px;
+}
+
+.profile {
+  padding-bottom: 30px;
+}
+
+.middle-container {
+  padding-bottom: 100px;
+  padding-top: 50px;
+  /*background-color: #ff7f27;
+  width: 200px;
+  height: 200px;*/
+  /*border: solid; this createa a colored border */
+  /*border-width: 10px;*/
+  /*padding: 10%; /*This is empty space within the border*/
+  /*margin: 10%   /* This is empty space outside the border*/
+}
+
+.bottom-container {
+  position: relative;
+  margin-top: -70px;
+  height: 70px;
+  background-color: #66BFBF;
+  margin-bottom: 0px;
+  padding-top: 20px;
+}
+
+.footer-copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
+
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bolder;
+}
+
+hr {
+width:30%;
+border-style:dotted none none none;
+border-color:#696969;
+border-width:5px;
+}
+
+.footer-attribute {
+  color: #EAF6F6;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 0.5rem;
+  margin-top: 0;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  padding-top: 40px;
+}
+.profile {
+  width: 60%;
+  margin: auto;
+  line-height: 1.8
+}
+
+.skills {
+  margin-top: 50px;
+}
+
+.skill-img2 {
+  width: 50%;
+  margin-left: 50px;
+  float: right;
+}
+
+.skill-img {
+  width: 35%;
+  margin-right: 50px;
+  float: left;
+}
+
+.btn {
+  background-color: #11999E;
+  /* Green */
+  border: none;
+  color: white;
+  transition-duration: 0.8s;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 30px;
+  width: 8%;
+}
+
+.right-cloud {
+  position: absolute;
+  right: 300px;
+  top: 300px;
+  width: 12%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 420px;
+  width: 15%;
+}
