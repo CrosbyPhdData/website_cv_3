@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   /*100% = 16px */
   color: #fff;
   margin: 30px auto 0 auto;
@@ -31,6 +31,21 @@ h2 {
   font-size: 1.75rem;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 900px) {
+  .bottom-cloud {display: none;}
+  .right-cloud {display: none;}
+  .top-cloud {display: none;}
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+} /* This makes sure that there is no whitespace to the right of the application on smaller screens */
+
+
 
 h3 {
   color: #328DB5;
@@ -101,6 +116,12 @@ h6 {
   padding-bottom: 30px;
   padding-top: 20px;
 }
+
+.container-fluid{
+  padding: 8% 0% 0%;
+  text-align: center;
+}
+
 
 .footer-copyright {
   color: #EAF6F6;
