@@ -16,9 +16,9 @@ h1 {
   font-size: 4rem;
   /*100% = 16px */
   color: #fff;
+  font;
   margin: 30px auto 0 auto;
-  font-family: 'Montserrat-black', cursive;
-  font-weight: bolder;
+  font-family: 'Montserrat-black', serif;
   /*width: 10%;
   margin: auto;*/
 }
@@ -26,9 +26,8 @@ h1 {
 h2 {
   color: #696969;
   margin-top: 0px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat-black', serif;
   font-size: 1.75rem;
-  font-weight: bold;
 }
 
 h3 {
