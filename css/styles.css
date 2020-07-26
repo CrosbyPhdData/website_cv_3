@@ -15,7 +15,7 @@ body {
 h1 {
   font-size: 4rem;
   /*100% = 16px */
-  color: #696969;
+  color: #fff;
   margin: 30px auto 0 auto;
   font-family: 'Montserrat', cursive;
   font-weight: bolder;
@@ -54,6 +54,20 @@ h6 {
   margin-top: 0px;
   font-family: 'Montserrat', sans-serif;
 }
+
+@media only screen and (max-width: 900px) {
+  .top-cloud {display: none;}
+  .right-cloud {display: none;}
+  .bottom-cloud {display: none;}
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+} /* This makes sure that there is no whitespace to the right of the application on smaller screens */
+
 
 .top-container {
   background-color: #66BFBF;
