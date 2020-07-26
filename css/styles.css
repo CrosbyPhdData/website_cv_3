@@ -13,11 +13,12 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   /*100% = 16px */
-  color: #696969;
+  color: #fff;
   margin: 30px auto 0 auto;
-  font-family: 'Montserrat', cursive;
+  font-family: 'Montserrat', serif;
+  line-height: 1.5;
   font-weight: bolder;
   /*width: 10%;
   margin: auto;*/
@@ -26,7 +27,7 @@ h1 {
 h2 {
   color: #696969;
   margin-top: 0px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', serif;
   font-size: 1.75rem;
   font-weight: bold;
 }
